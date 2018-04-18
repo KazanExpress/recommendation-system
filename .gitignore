@@ -73,6 +73,9 @@ target/
 # pyenv
 .python-version
 
+# csv
+.csv
+
 # celery beat schedule file
 celerybeat-schedule
 
