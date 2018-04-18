@@ -53,12 +53,10 @@ for index, row in data.iterrows():
     if user not in user_products:
         user_products[user] = {product}
     else:
-        if product not in user_products[user]:
-            user_products[user].add(product)
+        user_products[user].add(product)
     if product not in products_user:
         products_user[product] = {user}
     else:
-        if user not in products_user[product]:
-            products_user[product].add(user)
+        products_user[product].add(user)
 
 
